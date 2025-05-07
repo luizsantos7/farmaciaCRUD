@@ -87,4 +87,4 @@ Compartilhar com colegas que estejam aprendendo Java!
 7. Contato
 <br />
 
-Desenvolvido por Rafael Para dúvidas, sugestões ou colaborações, entre em contato via GitHub ou abra uma issue!
+Desenvolvido por Luiz Henrique dos Santos Para dúvidas, sugestões ou colaborações, entre em contato via GitHub ou abra uma issue!
