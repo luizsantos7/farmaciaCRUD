@@ -1,15 +1,16 @@
 package farmacia.repository;
 
+import farmacia.model.produto;
+
 public interface produtoRepository {
 	
-	public void criar_produto();
+	public void cadastrar(produto produto);
 	
 	public void listar_todos();
 	
-	public void consultarProdutoId();
+	public void consultarProdutoId(int id);
 	
-	public void atualizarProduto();
+	public void atualizarProduto(int id);
 	
-	public void deletarProduto();
-
+	public void deletarProduto(int id);
 }
