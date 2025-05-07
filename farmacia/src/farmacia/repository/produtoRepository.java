@@ -10,7 +10,7 @@ public interface produtoRepository {
 	
 	public void consultarProdutoId(int id);
 	
-	public void atualizarProduto(int id);
+	public void atualizarProduto(produto produtos);
 	
 	public void deletarProduto(int id);
 }
