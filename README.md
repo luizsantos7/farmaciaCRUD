@@ -36,54 +36,14 @@ Editar Produto: Permite atualizar os dados de um produto existente com base no s
 Excluir Produto: Remove um produto específico do sistema a partir do seu ID.
 <br />
 
-3. Diagrama de Classes
+3. Tela Inicial do Sistema - Menu
 <br />
 
-Um Diagrama de Classes é um modelo visual usado na programação orientada a objetos para representar a estrutura de um sistema. Ele exibe classes, atributos, métodos e os relacionamentos entre elas, como associações, heranças e dependências.
-
-Esse diagrama ajuda a planejar e entender a arquitetura do sistema, mostrando como os componentes interagem e se conectam. É amplamente utilizado nas fases de design e documentação de projetos.
-
-Abaixo, você confere o Diagrama de Classes do Projeto Farmácia (e-commerce):
-
-classDiagram
-class Produto {
-  - id: int
-  - nome: String
-  - categoria: int
-  - preco: float
-  + getId() int
-  + getNome() String
-  + getCategoria() int
-  + getPreco() float
-  + setId(id: int) void
-  + setNome(nome: String) void
-  + setCategoria(categoria: int) void
-  + setPreco(preco: float) void
-  + visualizar() void
-}
-class Medicamento {
-  - generico: String
-  + getGenerico() String
-  + setGenerico(generico: String) void
-  + visualizar() void
-}
-class Cosmetico {
-  - fragancia: String
-  + getFragancia() String
-  + setFragancia(fragancia: String) void
-  + visualizar() void
-}
-Medicamento --> Produto
-Cosmetico --> Produto
+<div align="center"> ![image](https://github.com/user-attachments/assets/1744a757-3703-4ffa-bbcc-e1fdb8798b87)
+ </div>
 <br />
 
-4. Tela Inicial do Sistema - Menu
-<br />
-
-<div align="center"> <img src="https://i.imgur.com/lx232A1.png" title="source: imgur.com" width="90%"/> </div>
-<br />
-
-5. Requisitos
+4. Requisitos
 <br />
 
 Para executar os códigos localmente, você precisará de:
@@ -92,10 +52,10 @@ Java JDK 17+
 Eclipse ou STS
 <br />
 
-6. Como Executar o projeto no Eclipse/STS
+5. Como Executar o projeto no Eclipse/STS
 <br />
 
-6.1. Importando o Projeto
+5.1. Importando o Projeto
 Clone o repositório do Projeto Conta Bancária dentro da pasta do Workspace do Eclipse/STS
 git clone https://github.com/rafaelq80/farmacia_java_t82.git
 Abra o Eclipse/STS e selecione a pasta do Workspace onde você clonou o repositório do projeto
@@ -106,7 +66,7 @@ O Eclipse/STS reconhecerá automaticamente o projeto
 Marque o Projeto Conta Bancária no item Projects e clique no botão Finish para concluir a importação
 <br />
 
-6.2. Executando o projeto
+5.2. Executando o projeto
 Na guia Package Explorer, localize o Projeto Conta Bancária
 Abra a Classe Menu
 Clique no botão Run source: imgur.com para executar a aplicação
@@ -114,7 +74,7 @@ Caso seja perguntado qual é o tipo do projeto, selecione a opção Java Applica
 O console exibirá o menu do Projeto.
 <br />
 
-7. Contribuição
+6. Contribuição
 <br />
 
 Este repositório é parte de um projeto educacional, mas contribuições são sempre bem-vindas! Caso tenha sugestões, correções ou melhorias, fique à vontade para:
@@ -124,7 +84,7 @@ Enviar um pull request
 Compartilhar com colegas que estejam aprendendo Java!
 <br />
 
-8. Contato
+7. Contato
 <br />
 
 Desenvolvido por Rafael Para dúvidas, sugestões ou colaborações, entre em contato via GitHub ou abra uma issue!
